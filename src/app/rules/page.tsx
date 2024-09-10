@@ -1,10 +1,11 @@
 import { Header } from "@/components/Header";
-import { Main } from "@/components/Main";
-export default function Home() {
+import { Rules } from "@/components/Rules";
+
+export default function RulesPage() {
   return (
     <main>
       <Header />
-      <Main />
+      <Rules/>
     </main>
   );
 }

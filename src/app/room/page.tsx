@@ -1,10 +1,11 @@
+import { Room } from "@/components/Room";
 import { Header } from "@/components/Header";
-import { Main } from "@/components/Main";
-export default function Home() {
+
+export default function RoomPage () {
   return (
     <main>
       <Header />
-      <Main />
+      <Room />
     </main>
   );
-}
+};
